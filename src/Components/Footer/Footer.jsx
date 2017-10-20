@@ -14,14 +14,14 @@ const Footer = () => (
             <ul>
                 <li>something</li>
                 <li>something</li>
-            </ul>            
+            </ul>
         </div>
         <div>
             Get Started
             <ul>
                 <li>something</li>
                 <li>something</li>
-            </ul>            
+            </ul>
         </div>
     </footer>
 );
