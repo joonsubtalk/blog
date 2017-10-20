@@ -19,7 +19,7 @@ class Showcase extends Component {
                                     <div className="">Introductions</div>
                                     <h2 className="">Who Am I?</h2>
                                 </header>
-                                <p className="">
+                                <p className="u-lead">
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sequi deserunt ullam incidunt adipisci, cumque voluptate repellat non minus sunt corrupti animi maiores numquam unde reprehenderit? Blanditiis impedit cupiditate quis.
                                 </p>
                                 <p>
