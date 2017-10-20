@@ -1,8 +1,10 @@
+@import 'styles/_custom.scss';
+
 body {
   margin: 0;
   padding: 0;
   font-size: 21px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: $bodyFont;
 }
 
 /* Grid */

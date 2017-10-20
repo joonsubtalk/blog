@@ -76,3 +76,6 @@ Special feature requests - Any custom needs in animations/interactions etc.
 CMS - A customized platform for you to change things by yourself with a log in.
 Having me take care of the hosting for you.
 Specific development language: React, Angular, PHP, plain html, etc.
+
+
+Inspirations: https://www.gogoro.com/smartscooter/s-performance/performance/
