@@ -1,0 +1,10 @@
+.o-app {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    // @Element
+    &__content {
+        flex: 1;
+    }
+}

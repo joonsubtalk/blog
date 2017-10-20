@@ -1,0 +1,64 @@
+@import 'styles/_custom.scss';
+// This is a hero unit
+.c-herounit {
+    height: 500px;
+    font-size: 1rem;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: height .4s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        color: $textOnDarkColor;
+        font-size: 2.75em;
+        text-shadow: 1px 1px  rgba(99, 107, 130, 0.57);
+    }
+
+    @media (max-width: 767px) {
+        height:400px;
+    }
+    
+    @media (min-width: 1500px) {
+        height:550px;
+    }
+    
+    @media (min-width: 2400px) {
+        height:700px;
+    }
+
+    background-image: url(../../img/homepage/hero-md.jpg);
+
+    @media (min-width: 1200px) {
+        background-image:url(../../img/homepage/hero-lg.jpg)
+    }
+
+    @media (min-width: 768px) and (max-width:1199px) {
+        background-image:url(../../img/homepage/hero-md.jpg)
+    }
+
+    @media (max-width: 767px) {
+        background-image:url(../../img/homepage/hero-sm.jpg)
+    }
+
+    @media (max-width: 480px) {
+        background-image:url(../../img/homepage/hero-xsm.jpg)
+    }
+    
+    @media (min-width: 768px) and (max-width:1199px) and (-webkit-min-device-pixel-ratio:1.5),
+        (min--moz-device-pixel-ratio:1.5),
+        (-o-min-device-pixel-ratio:3/2),
+        (min-device-pixel-ratio:1.5) {
+        background-image:url(../../img/homepage/hero-lg.jpg)
+    }
+}
+
+
+
+
+
+
+

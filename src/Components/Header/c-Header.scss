@@ -1,0 +1,10 @@
+@import 'styles/_custom.scss';
+.o-header {
+    height:2em;
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    font-size: 1rem;
+    color: $textOnDarkColor;
+}
