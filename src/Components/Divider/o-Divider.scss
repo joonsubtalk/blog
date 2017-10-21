@@ -1,0 +1,6 @@
+@import 'styles/_custom.scss';
+// This is a hero unit
+.o-divider {
+	color: $textOnDarkColor;
+	background: url('../../img/grid.svg') center, linear-gradient(80deg, #832D89 0%, #E82A4C 80%, #E82A4C 100%);
+}

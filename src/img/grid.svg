@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81 81">
+	<style type="text/css">
+		.st0{fill:none;stroke:#FFFFFF;stroke-opacity:.4;}
+	</style>
+	<g fill="#61DAFB" class="st0">
+		<line class="st0" x1="0.5" y1="0.5" x2="81.5" y2="0.5"/>
+		<line class="st0" x1="0.5" y1="81.5" x2="0.5" y2="0.5"/>
+		<line class="st0" x1="0.5" y1="0.5" x2="81.5" y2="81.5"/>
+    </g>
+</svg>

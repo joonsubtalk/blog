@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import propTypes from 'prop-types';
 import './o-Card.css';
 
-class Showcase extends Component {
+class Card extends Component {
 
     constructor(props) {
         super(props);
@@ -11,6 +11,7 @@ class Showcase extends Component {
     render() {
         return (
             <div className="o-card">
+                {}
             </div>
         );
     }

@@ -5,3 +5,30 @@
 .u-lead {
     color: $textLighterColor;
 }
+
+/*
+ * spacing
+ */
+.u-baseMarginSpacing {
+    margin: 1rem 0;
+}
+
+.u-doubleMarginSpacing {
+    margin: 2rem 0;
+}
+
+.u-tripleMarginSpacing {
+    margin: 3rem 0;
+}
+
+.u-basePaddingSpacing {
+    padding: 1rem 0;
+}
+
+.u-doublePaddingSpacing {
+    padding: 2rem 0;
+}
+
+.u-triplePaddingSpacing {
+    padding: 3rem 0;
+}

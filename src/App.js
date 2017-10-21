@@ -4,6 +4,8 @@ import Header from '../src/Components/Header/Header';
 import HeroUnit from '../src/Components/HeroUnit/HeroUnit';
 import Footer from '../src/Components/Footer/Footer';
 import Showcase from '../src/Components/Showcase/Showcase';
+import Divider from '../src/Components/Divider/Divider';
+import Infobar from '../src/Components/Infobar/Infobar';
 import './App.css';
 
 class App extends Component {
@@ -14,6 +16,8 @@ class App extends Component {
         <section className="o-app__content">
           <HeroUnit name="something" />
           <Showcase />
+          <Divider />
+          <Infobar info="Say Something here!" />
         </section>
         <Footer />
       </div>
