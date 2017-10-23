@@ -20,7 +20,13 @@ class Showcase extends Component {
                                     <h2 className="">Who Am I?</h2>
                                 </header>
                                 <p className="u-lead">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sequi deserunt ullam incidunt adipisci, cumque voluptate repellat non minus sunt corrupti animi maiores numquam unde reprehenderit? Blanditiis impedit cupiditate quis.
+                                Before moving to the Bay Area in 2014, I was living in Los Angeles 
+During my four years at UCLA, I also worked as a product
+
+I love biking cooking and I bought a Trek 2.1 Pilot and you'll
+You can find me at @cjsub or joonsubtalk@gmail.com
+
+
                                 </p>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi accusantium ullam cumque sint sed enim modi at numquam reprehenderit, amet vero ratione nemo odio magnam itaque nihil debitis dolore perspiciatis!

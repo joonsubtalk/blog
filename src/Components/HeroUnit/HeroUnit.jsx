@@ -44,7 +44,8 @@ class HeroUnit extends Component {
         return (
             <div className="c-herounit">
                 <div className="c-herounit__content">  
-                   {this.bleh()}   
+                   Make an Impression.<br/>
+                   Splash into AWESOME design.
                 </div>
             </div>
         );
