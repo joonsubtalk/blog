@@ -1,9 +1,17 @@
 @import 'styles/_custom.scss';
 
 .c-footer {
-    z-index: 9999;
-    font-size: 1rem;
-    width: 100%;
+	z-index: 9999;
+	font-size: 1rem;
+	width: 100%;
 	color: $textOnDarkColor;
-	background-color: $backgroundDarkColor;
+	background-color: $backgroundOffDarkColor;
+	
+	&__copyright {
+		height: 3em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: $backgroundDarkColor;
+	}
 }

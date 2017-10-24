@@ -4,6 +4,9 @@ Make your next move.
 
 Frontend developer
 
+TODO:
+- Fix the container/mobile width.
+- Figure out a good solution for adding responsiveness.
 
 
 

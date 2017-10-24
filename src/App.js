@@ -21,7 +21,7 @@ class App extends Component {
           <Divider />
           <Infobar info="Say Something here!" />
         </section>
-        <Footer />
+        <Footer/>
       </div>
     );
   }
