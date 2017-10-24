@@ -44,8 +44,8 @@ class HeroUnit extends Component {
         return (
             <div className="c-herounit">
                 <div className="c-herounit__content">  
-                   Make an Impression.<br/>
-                   Splash into AWESOME design.
+                    Make an Impression.<br/>
+                    Design the future.
                 </div>
             </div>
         );
