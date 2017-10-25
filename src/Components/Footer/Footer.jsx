@@ -19,29 +19,27 @@ class Footer extends Component {
 		return (
 			<footer className="c-footer">
 				<div className="container">
-					<div className="grid">
-						<div className="row">
-							<div className="col-md-4 c-footer__section">
-								Menu
-								<ul className="c-footer__list">
-									<li className="c-footer__item">something</li>
-									<li className="c-footer__item">something</li>
-								</ul>
-							</div>
-							<div className="col-md-4">
-								Follow
-								<ul className="c-footer__list">
-									<li className="c-footer__item">something</li>
-									<li className="c-footer__item">something</li>
-								</ul>
-							</div>
-							<div className="col-md-4">
-								Get Started
-								<ul className="c-footer__list">
-									<li className="c-footer__item">something</li>
-									<li className="c-footer__item">something</li>
-								</ul>
-							</div>
+					<div className="row">
+						<div className="col-md-4 c-footer__section">
+							Menu
+							<ul className="c-footer__list">
+								<li className="c-footer__item">something</li>
+								<li className="c-footer__item">something</li>
+							</ul>
+						</div>
+						<div className="col-md-4">
+							Follow
+							<ul className="c-footer__list">
+								<li className="c-footer__item">something</li>
+								<li className="c-footer__item">something</li>
+							</ul>
+						</div>
+						<div className="col-md-4">
+							Get Started
+							<ul className="c-footer__list">
+								<li className="c-footer__item">something</li>
+								<li className="c-footer__item">something</li>
+							</ul>
 						</div>
 					</div>
 				</div>

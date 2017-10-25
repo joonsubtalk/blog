@@ -18,6 +18,10 @@
         font-size: 3.75em;
         text-shadow: 1px 1px  rgba(99, 107, 130, 0.57);
         padding: .5em;
+
+        @media (max-width: 767px) {
+            font-size: 1em;
+        }
     }
 
     @media (max-width: 767px) {

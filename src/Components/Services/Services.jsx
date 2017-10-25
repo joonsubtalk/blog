@@ -12,20 +12,18 @@ class Services extends Component {
 		return (
 			<div className="o-services">
 				<div className="container">
-					<div className="grid">
-						<div className="row">
-							<div className="col-md-3">
-								HTML
-							</div>
-							<div className="col-md-3">
-								CSS
-							</div>
-							<div className="col-md-3">
-								Javascript
-							</div>
-							<div className="col-md-3">
-								PHP
-							</div>
+					<div className="row">
+						<div className="col-md-3">
+							HTML
+						</div>
+						<div className="col-md-3">
+							CSS
+						</div>
+						<div className="col-md-3">
+							Javascript
+						</div>
+						<div className="col-md-3">
+							PHP
 						</div>
 					</div>
 				</div>

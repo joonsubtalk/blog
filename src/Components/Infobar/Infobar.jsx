@@ -12,14 +12,12 @@ class Infobar extends Component {
 		return (
 			<div className="o-infobar u-triplePaddingSpacing">
 				<div className="container">
-					<div className="grid">
-						<div className="row">
-							<div className="col-md-6">
-								{ this.props.info }
-							</div>
-							<div className="col-md-6">
-								{ this.props.info }
-							</div>
+					<div className="row">
+						<div className="col-md-6">
+							{ this.props.info }
+						</div>
+						<div className="col-md-6">
+							{ this.props.info }
 						</div>
 					</div>
 				</div>
