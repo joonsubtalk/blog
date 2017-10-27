@@ -14,13 +14,13 @@ class App extends Component {
     return (
       <div className="o-app">
         <Header />
-        <section className="o-app__content">
+        <div className="o-app__content">
           <HeroUnit name="something" />
-          <Services />
           <Showcase />
           <Divider />
+          <Services />
           <Infobar info="Say Something here!" />
-        </section>
+        </div>
         <Footer/>
       </div>
     );

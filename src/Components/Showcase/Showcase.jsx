@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import propTypes from 'prop-types';
 import './o-Showcase.css';
+import Card from '../Card/Card';
+import profile from '../../img/homepage/emo.jpg';
 
 class Showcase extends Component {
 
@@ -10,7 +12,7 @@ class Showcase extends Component {
 
 	render() {
 		return (
-			<div className="o-showcase">
+			<section className="o-showcase">
 				<div className="container">
 					<div className="row">
 						<div className="col-md-6">
@@ -19,10 +21,14 @@ class Showcase extends Component {
 								<h2 className="">Who Am I?</h2>
 							</header>
 							<p className="u-lead">
+An LA native.
+A hearthstone
+
+
 							Before moving to the Bay Area in 2014, I was living in Los Angeles 
 During my four years at UCLA, I also worked as a product
 
-I love biking cooking and I bought a Trek 2.1 Pilot and you'll
+I love cycling, cooking and I bought a Trek 2.1 Pilot and you'll
 You can find me at @cjsub or joonsubtalk@gmail.com
 
 
@@ -32,11 +38,28 @@ You can find me at @cjsub or joonsubtalk@gmail.com
 							</p>
 						</div>
 						<div className="col-md-6">
-
+							<img src={profile}/>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col-md-4">
+							<Card image="./img/homepage/snow.jpg"
+								text="I sing."
+							 />
+						</div>
+						<div className="col-md-4">
+							<Card image="../../img/homepage/snow.jpg"
+								text="I dance."
+							 />
+						</div>
+						<div className="col-md-4">
+							<Card image="c"
+								text="I lie."
+							 />
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		);
 	}
 }

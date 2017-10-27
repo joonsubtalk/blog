@@ -1,20 +1,17 @@
-import React, {Component} from 'react';
-import propTypes from 'prop-types';
+import React from 'react';
+import PropTypes from 'prop-types';
 import './o-Card.css';
 
-class Card extends Component {
+const Card = (props) => (
+    <div className="o-card">
+        <div className="o-card__image"><img src={props.image}/></div>
+        <div className="o-card__text">{props.text}</div>
+    </div>
+);
 
-    constructor(props) {
-        super(props);
-    }
+Card.propTypes = {
+    image: PropTypes.string,
+    text: PropTypes.string
+};
 
-    render() {
-        return (
-            <div className="o-card">
-                {}
-            </div>
-        );
-    }
-}
-
-export default Showcase;
+export default Card;

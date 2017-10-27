@@ -44,7 +44,7 @@ class Footer extends Component {
 					</div>
 				</div>
 				<div className="c-footer__copyright">
-					Joonsub.com &copy; {this.state.year}
+					Copyrights &copy; {this.state.year} All Rights Reserved by Joonsub.com.
 				</div>
 			</footer>
 		);

@@ -4,4 +4,19 @@
  */
 .o-card {
 	background-color: $backgroundColor;
+	max-width: 100%;
+    overflow: hidden;
+	box-shadow: 0 10px 50px 0 rgba(0,0,0,.1);
+	
+	&__image {
+		height: 200px;
+		width: 100%;
+	}
+
+	&__text {
+		height: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }

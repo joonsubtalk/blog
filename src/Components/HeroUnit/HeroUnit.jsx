@@ -15,6 +15,9 @@ class HeroUnit extends Component {
     }
 
     componentDidMount(){
+
+        window.addEventListener('scroll', this.handleScroll);
+
         fetch('http://www.joonsub.com/site/wordpress/wp-json/wp/v2/pages/4')
         .then(response => {
             if (!response.ok) {
@@ -43,9 +46,11 @@ class HeroUnit extends Component {
     render() {
         return (
             <div className="c-herounit">
-                <div className="c-herounit__content">  
+                <div className="c-herounit__content container">  
                     Make an Impression.<br/>
                     Design the future.
+                </div>
+                <div className="c-herounit__background">
                 </div>
             </div>
         );
