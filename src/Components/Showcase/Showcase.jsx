@@ -21,21 +21,18 @@ class Showcase extends Component {
 								<h2 className="">Who Am I?</h2>
 							</header>
 							<p className="u-lead">
-An LA native.
-A hearthstone
-
-
-							Before moving to the Bay Area in 2014, I was living in Los Angeles 
-During my four years at UCLA, I also worked as a product
-
-I love cycling, cooking and I bought a Trek 2.1 Pilot and you'll
-You can find me at @cjsub or joonsubtalk@gmail.com
-
-
+								Joon started creating websites since the early 2000's.
+								His fascination with programming and love for the arts has [fueled a desire to be an excellent] web developer.
+								Currently, he enjoys developing with ReactJS and all things front end.
 							</p>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi accusantium ullam cumque sint sed enim modi at numquam reprehenderit, amet vero ratione nemo odio magnam itaque nihil debitis dolore perspiciatis!
+								He's an LA Native. A proud Bruin and loves college football.
+								When Joon's not coding, he's probably <a href="https://www.strava.com/athletes/9591001">cycling</a> next to the ocean and enjoying the breeze, or owning noobs in hearthstone ladder.
 							</p>
+							<p>
+								So what are you waiting for? Have an exciting app idea? Need a website? I'm always looking for new projects.
+							</p>
+							{ /* Loves tinkering with the latest technology like the <a href="http://newsroom.ucla.edu/stories/an-eye-on-the-future-of-storytelling">google glass</a>. */}
 						</div>
 						<div className="col-md-6">
 							<img src={profile}/>

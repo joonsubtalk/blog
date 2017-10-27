@@ -40,16 +40,14 @@ class Header extends Component {
 	render(){
 		return (
 			<header className="o-header">
-				<div className="o-header__content">
-					<div className="container">
-						<div className="row">
-							<div className="col-sm-6">
-								Joonsub.com
-							</div>
-							<div className="col-sm-6">
-								Who What When
-							</div>
-						</div>
+				<div className="o-header__content container">
+					<div className="o-header__logo">Joonsub.com</div>
+					<div className="o-header__nav">
+						<ul className="o-header__nav-list">
+							<li className="o-header__nav-item">About</li>
+							<li className="o-header__nav-item">Education</li>
+							<li className="o-header__nav-item">Contact</li>
+						</ul>
 					</div>
 				</div>
 			</header>

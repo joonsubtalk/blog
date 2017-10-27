@@ -1,15 +1,30 @@
 @import 'styles/_custom.scss';
 
 .o-header {
-    height:2em;
     background-color: transparent;
-    position: fixed;
+    position: absolute;
     z-index: 9999;
     font-size: 1rem;
     width: 100%;
     color: $textOnDarkColor;
 
     &__content {
+        height:2em;
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        float: left;
+    }
+    &__nav {
+        float: right;
+    }
+    &__nav-list {
+
+    }
+    &__nav-item {
+        list-style: none;
+        display: inline;
     }
 }
