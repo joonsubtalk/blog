@@ -28,7 +28,7 @@ class Code extends Component {
         let lineNumber = 32;
         return (<ul className="c-code__list">{this.state.code.map((codeLine) => {
             return (<li key={lineNumber++} className="c-code__line">
-                    <span className="c-code__line-number">{lineNumber}.</span>
+                    <span className="c-code__line-number">{lineNumber}</span>
                     <span className={`c-code__space-${codeLine.tabSpace}`}>{codeLine.code}</span>
                 </li>)
         })}

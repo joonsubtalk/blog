@@ -12,7 +12,7 @@ class Infobar extends Component {
 
 	render() {
 		return (
-			<div className="o-infobar u-triplePaddingSpacing">
+			<section className="o-infobar">
 				<div className="container">
 					<div className="row">
 						<div className="col-md-6">
@@ -23,7 +23,7 @@ class Infobar extends Component {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		);
 	}
 }

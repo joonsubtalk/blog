@@ -1,6 +1,8 @@
 .c-code {
     $terminalColor: #6ed9ff;
 
+    font-size: 1rem;
+    font-family: courier, monospace, serif;
     border: 1px solid $terminalColor;
     border-radius: 5px;
     height: 100%;
@@ -12,10 +14,12 @@
 
     &__line {
         color: $terminalColor;
+        font-size: .8em;
     }
 
     &__list {
         list-style: none;
+        padding: .5em;
     }
 
    &__space-0 {
