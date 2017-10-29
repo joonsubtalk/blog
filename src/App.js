@@ -19,7 +19,7 @@ class App extends Component {
           <Showcase />
           <Divider />
           <Services />
-          <Infobar info="Say Something here!" />
+          <Infobar info="I Make Every Code Count!" />
         </div>
         <Footer/>
       </div>

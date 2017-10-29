@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import propTypes from 'prop-types';
+import Code from '../Code/Code';
 import './o-Infobar.css';
+
 
 class Infobar extends Component {
 
@@ -17,7 +19,7 @@ class Infobar extends Component {
 							{ this.props.info }
 						</div>
 						<div className="col-md-6">
-							{ this.props.info }
+							<Code />
 						</div>
 					</div>
 				</div>

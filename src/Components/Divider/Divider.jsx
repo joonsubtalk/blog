@@ -14,7 +14,9 @@ class Divider extends Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12">
-							BALsdfjal skdjfla ksdjflka sdjflk
+							<div className="o-divider__title">
+								Ready to make an impact?
+							</div>
 						</div>
 					</div>
 				</div>

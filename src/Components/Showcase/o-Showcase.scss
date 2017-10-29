@@ -5,6 +5,29 @@
 */
 
 .o-showcase {
+    $imageSize: 20em;
+
     background: $backgroundColor;
     line-height: 1.5;
+    font-size: 1rem;
+
+    &__image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__image {
+        height: $imageSize;
+        width: $imageSize;
+        border-radius: 50%;
+        padding: .75em;
+        box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+
+        @media (max-width: 767px) {
+            height: $imageSize/2;
+            width: $imageSize/2;
+            padding: .5em;
+        }
+    }
 }
