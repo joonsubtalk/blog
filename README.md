@@ -5,7 +5,7 @@ Make your next move.
 Frontend developer
 
 TODO:
-- Fix the container/mobile width.
+- Journal / Recent Articles Section...
 - Figure out a good solution for adding responsiveness.
 
 
@@ -16,17 +16,10 @@ Strava
 Linkedin
 Github
 
-When I’m not coding, you’ll find me cycling next to the shore.
-
-
-Before moving to the Bay Area in 2014, I was living in Los Angeles 
-During my four years at UCLA, I also worked as a product
-
-I love biking cooking and I bought a Trek 2.1 Pilot and you'll
-You can find me at @cjsub or joonsubtalk@gmail.com
-
-
-http://astrum.nodividestudio.com/#install
+Inspirations:
+	- http://applecrumbs.com/about/
+	- https://ivomynttinen.com/
+	- https://www.devonstank.com/
 
 
 

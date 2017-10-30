@@ -22,7 +22,7 @@ class Experience extends Component {
                         <div className="col-md-12">
                             <header className="">
                                 <div className="">Experiences</div>
-                                <h2 className="">I've Worked At</h2>
+                                <h2 className="">I've Worked At / Recent Projects</h2>
                             </header>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ class Experience extends Component {
                     <div className="row u-doubleTopMargin">
                         <div className="col-md-12">
                             <header className="">
-                                <h2 className="">Technical Skills</h2>
+                                <h2 className="">Technical Skills / Development capbilities</h2>
                             </header>
                         </div>
                     </div>

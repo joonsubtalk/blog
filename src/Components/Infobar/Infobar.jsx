@@ -28,7 +28,7 @@ class Infobar extends Component {
 						</div>
 						<div className="col-md-6 col-md-pull-6 o-infobar__copy">
 							<div className="o-infobar__header">More code isn't always better code.</div>
-							Quality code is critical for your apps performance and security. 
+							Quality code is critical for your app's performance and security. 
 							An increase in mobile users means your site's load speed is critical for maintaining customer loyalty. 
 						</div>
 					</div>
