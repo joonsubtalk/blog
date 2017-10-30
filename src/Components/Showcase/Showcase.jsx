@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import propTypes from 'prop-types';
 import './o-Showcase.css';
-import Card from '../Card/Card';
 import profile from '../../img/homepage/jsub.jpg';
 
 class Showcase extends Component {
@@ -25,16 +24,13 @@ class Showcase extends Component {
 					<div className="row">
 						<div className="col-md-6">
 							<p className="u-lead">
-								Joon started creating websites since the early 2000's.
-								His combined interest in coding and fascination for the arts allows him to pursue his passion as a web developer.
-								Currently, he enjoys developing webites and native apps.
+								I started creating websites since the early 2000's.
+								My combined interest in coding and fascination for the arts allowed me to pursue my passion as a web developer.
+								Currently, I'm enjoying developing webites and native apps.
 							</p>
 							<p>
-								He's an LA Native, a proud Bruin, and loves watching college football.
-								When Joon's not coding, he's probably <a href="https://www.strava.com/athletes/9591001">cycling</a> next to the ocean and enjoying the breeze.
-							</p>
-							<p>
-								<span className="lead">Hire me!</span><br />
+								I'm an LA Native, a proud Bruin, and love watching college football.
+								When I'm not coding, I'm probably <a href="https://www.strava.com/athletes/9591001">cycling</a> through the SoCal ocean breeze.
 							</p>
 							{ /* Loves tinkering with the latest technology like the <a href="http://newsroom.ucla.edu/stories/an-eye-on-the-future-of-storytelling">google glass</a>. */}
 						</div>
@@ -42,23 +38,6 @@ class Showcase extends Component {
 							<div className="o-showcase__image-container">
 								<img className="o-showcase__image"src={profile}/>
 							</div>
-						</div>
-					</div>
-					<div className="row">
-						<div className="col-md-4">
-							<Card image="./img/homepage/snow.jpg"
-								text="I sing."
-							 />
-						</div>
-						<div className="col-md-4">
-							<Card image="../../img/homepage/snow.jpg"
-								text="I dance."
-							 />
-						</div>
-						<div className="col-md-4">
-							<Card image="c"
-								text="I lie."
-							 />
 						</div>
 					</div>
 				</div>

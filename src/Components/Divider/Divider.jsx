@@ -10,17 +10,22 @@ class Divider extends Component {
 
 	render() {
 		return (
-			<div className="o-divider u-doublePaddingSpacing">
+			<section className="o-divider u-doublePaddingSpacing">
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12">
 							<div className="o-divider__title">
-								Ready to make an impact?
+								<header className="">
+									<h2>Ready To Make An Impact?</h2>
+								</header>
+							</div>
+							<div className="o-divider__call-to-action">
+								<button value="something">do it</button>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		);
 	}
 }

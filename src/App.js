@@ -5,6 +5,7 @@ import HeroUnit from '../src/Components/HeroUnit/HeroUnit';
 import Footer from '../src/Components/Footer/Footer';
 import Showcase from '../src/Components/Showcase/Showcase';
 import Divider from '../src/Components/Divider/Divider';
+import Experience from '../src/Components/Experience/Experience';
 import Infobar from '../src/Components/Infobar/Infobar';
 import Services from '../src/Components/Services/Services';
 import './App.css';
@@ -17,9 +18,10 @@ class App extends Component {
         <div className="o-app__content">
           <HeroUnit name="something" />
           <Showcase />
-          <Divider />
-          <Services />
+          <Experience />
+          {/*<Divider />*/}
           <Infobar info="I Make Every Code Count!" />
+          <Services />
         </div>
         <Footer/>
       </div>

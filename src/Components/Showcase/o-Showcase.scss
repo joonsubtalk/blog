@@ -1,11 +1,11 @@
-@import 'styles/_custom.scss';
+@import 'styles/_colors.scss';
 /*  
     This is a showcase
     Contains two views
 */
 
 .o-showcase {
-    $imageSize: 20em;
+    $imageSize: 17em;
 
     background: $backgroundColor;
     line-height: 1.5;

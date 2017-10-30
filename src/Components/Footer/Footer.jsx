@@ -23,15 +23,18 @@ class Footer extends Component {
 						<div className="col-md-4 c-footer__section">
 							Menu
 							<ul className="c-footer__list">
-								<li className="c-footer__item">something</li>
-								<li className="c-footer__item">something</li>
+								<li className="c-footer__item">Home</li>
+								<li className="c-footer__item">About</li>
+								<li className="c-footer__item">Pricing</li>
+								<li className="c-footer__item">Quality</li>
 							</ul>
 						</div>
 						<div className="col-md-4">
 							Follow
 							<ul className="c-footer__list">
-								<li className="c-footer__item">something</li>
-								<li className="c-footer__item">something</li>
+								<li className="c-footer__item">LinkedIn</li>
+								<li className="c-footer__item">Github</li>
+								<li className="c-footer__item">Strava</li>
 							</ul>
 						</div>
 						<div className="col-md-4">
@@ -44,7 +47,7 @@ class Footer extends Component {
 					</div>
 				</div>
 				<div className="c-footer__copyright">
-					Copyrights &copy; {this.state.year} All Rights Reserved by Joonsub.com.
+					Copyrights &copy; {this.state.year} All Rights Reserved by Joonsub.com
 				</div>
 			</footer>
 		);

@@ -3,4 +3,33 @@
 .o-infobar {
 	color: $textOnDarkColor;
 	background-color: $backgroundDarkColor;
+
+	&__header {
+		font-size: 1.25em;
+		font-weight: bold;
+		@media (max-width: 767px) {
+			font-size: 1em;
+		}
+	}
+
+	&__copy {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__code {
+		@media (max-width: 767px) {
+			margin-bottom: 2em;
+		}
+	}
+
+	&__col {
+		display: flex;
+		flex-wrap: wrap;
+
+		& > [class*='col-'] {
+			display: flex;
+			flex-direction: column;
+		}
+	}
 }

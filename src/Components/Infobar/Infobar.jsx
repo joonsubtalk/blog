@@ -13,13 +13,23 @@ class Infobar extends Component {
 	render() {
 		return (
 			<section className="o-infobar">
-				<div className="container">
+				<div className="container o-infobar__content">
 					<div className="row">
-						<div className="col-md-6">
-							{ this.props.info }
+						<div className="col-md-12">
+							<header className="">
+								<div className="">Qualifications</div>
+								<h2 className="">I Make Every Code Count</h2>
+							</header>
 						</div>
-						<div className="col-md-6">
+					</div>
+					<div className="row o-infobar__col">
+						<div className="col-md-6 col-md-push-6 o-infobar__code">
 							<Code />
+						</div>
+						<div className="col-md-6 col-md-pull-6 o-infobar__copy">
+							<div className="o-infobar__header">More code isn't always better code.</div>
+							Quality code is critical for your apps performance and security. 
+							An increase in mobile users means your site's load speed is critical for maintaining customer loyalty. 
 						</div>
 					</div>
 				</div>
