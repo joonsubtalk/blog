@@ -30,6 +30,10 @@
 		& > [class*='col-'] {
 			display: flex;
 			flex-direction: column;
+
+			@media (max-width: 767px) {
+				width: 100%;
+			}
 		}
 	}
 }

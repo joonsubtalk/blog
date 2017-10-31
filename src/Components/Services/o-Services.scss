@@ -1,5 +1,10 @@
 @import 'styles/_custom.scss';
 
-.o-services {
-	
+.o-service {
+
+	&__list {
+		list-style: none;
+		padding-left: 0;
+	}
+
 }

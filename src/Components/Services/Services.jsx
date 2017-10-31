@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import propTypes from 'prop-types';
 import './o-Services.css';
+import Card from '../Card/Card';
 
 class Services extends Component {
 
@@ -21,19 +22,38 @@ class Services extends Component {
 						</div>
 					</div>
 					<div className="row">
-						Package 
-						<ul>
-							<li>CSS BEM Model (Styled efficiently for future developers)</li>
-							<li>Initial Wireframe mockup</li>
-							<li>Grid system (Basic visual guidelines)</li>
-							<li>HTML5 (Optimized for the web)</li>
-							<li>ES Linted JS (Clean and modernized javascript for interactions)</li>
-							<li>SEO (Search Engine Optimization)</li>
-							<li>Minimize assets (Faster page loads and save bandwidth)</li>
-							<li>Unit tests (Add tests to each page module)</li>
-							<li>Browser compatibility (Make sure your visitors from Chrome to Safari all see the page you want them to see)</li>
-							<li>Google Analytics Setup (Good for statistical inferences)</li>
-						</ul>
+						<div className="col-md-12">
+							Standard Package
+							<ul className="o-service__list">
+								<li className="o-service__item">Wireframes</li>
+								<li className="o-service__item">CSS BEM Methodology</li>
+								<li className="o-service__item">Grid system</li>
+								<li className="o-service__item">Optimized HTML5</li>
+								<li className="o-service__item">ES Linted JS</li>
+								<li className="o-service__item">SEO</li>
+								<li className="o-service__item">Minified assets</li>
+								<li className="o-service__item">Unit tested JS</li>
+								<li className="o-service__item">Browser compatibility</li>
+								<li className="o-service__item">Google Analytics Setup</li>
+							</ul>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col-md-4">
+							<Card text="UCLA, Los Angeles"
+								bg="#3284BF"
+							/>
+						</div>
+						<div className="col-md-4">
+							<Card text="Zazzle, Redwood City"
+								bg="#46c3e0"
+							/>
+						</div>
+						<div className="col-md-4">
+							<Card text="Mediatemple, Los Angeles" 
+								bg="#48e0a4"
+							/>
+						</div>
 					</div>
 				</div>
 			</section>
