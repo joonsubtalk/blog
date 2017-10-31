@@ -21,7 +21,7 @@ class Footer extends Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-4 c-footer__section">
-							Menu
+							<strong>Menu</strong>
 							<ul className="c-footer__list">
 								<li className="c-footer__item">Home</li>
 								<li className="c-footer__item">About</li>
@@ -30,7 +30,7 @@ class Footer extends Component {
 							</ul>
 						</div>
 						<div className="col-md-4">
-							Follow
+							<strong>Follow</strong>
 							<ul className="c-footer__list">
 								<li className="c-footer__item">LinkedIn</li>
 								<li className="c-footer__item">Github</li>
@@ -38,7 +38,7 @@ class Footer extends Component {
 							</ul>
 						</div>
 						<div className="col-md-4">
-							Get Started
+							<strong>Get Started</strong>
 							<ul className="c-footer__list">
 								<li className="c-footer__item">something</li>
 								<li className="c-footer__item">something</li>

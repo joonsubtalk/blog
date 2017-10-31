@@ -1,6 +1,7 @@
 // Variables
 $COLOR_WHITE: #ffffff;
 $COLOR_OFF_WHITE: #fafafa;
+$COLOR_GRAY: #cacaca;
 $COLOR_BLACK: #1C1C1E;
 $COLOR_SLIGHT_BLACK: #18181C;
 $COLOR_OFF_BLACK: lighten($COLOR_BLACK,20%);
@@ -8,6 +9,7 @@ $COLOR_OFF_BLACK: lighten($COLOR_BLACK,20%);
 
 $brandColor: #2def2d;
 $textOnDarkColor: $COLOR_WHITE;
+$darkTextOnDarkColor: $COLOR_GRAY;
 $textOnLightColor: $COLOR_BLACK;
 $backgroundColor: $COLOR_OFF_WHITE;
 $backgroundDarkColor: $COLOR_SLIGHT_BLACK;

@@ -16,4 +16,14 @@
 		align-items: center;
 		background-color: $backgroundDarkColor;
 	}
+
+	&__list {
+		list-style: none;
+		padding-left: 0;
+		margin-top: .25em;
+	}
+
+	&__item {
+		color: $darkTextOnDarkColor;
+	}
 }

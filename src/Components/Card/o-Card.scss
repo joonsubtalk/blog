@@ -6,6 +6,7 @@
 	background-color: $backgroundColor;
 	max-width: 100%;
     overflow: hidden;
+	transition: box-shadow ease 400ms;
 	box-shadow: 0 10px 50px 0 rgba(0,0,0,.1);
 	
 	&__image-container {
