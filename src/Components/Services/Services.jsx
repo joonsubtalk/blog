@@ -39,19 +39,14 @@ class Services extends Component {
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-md-4">
+						<div className="col-md-6">
 							<Card text="UCLA, Los Angeles"
 								bg="#3284BF"
 							/>
 						</div>
-						<div className="col-md-4">
+						<div className="col-md-6">
 							<Card text="Zazzle, Redwood City"
 								bg="#46c3e0"
-							/>
-						</div>
-						<div className="col-md-4">
-							<Card text="Mediatemple, Los Angeles" 
-								bg="#48e0a4"
 							/>
 						</div>
 					</div>

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import propTypes from 'prop-types';
+import SimpleButton from '../Button/SimpleButton';
 import Card from '../Card/Card';
 import './o-Experience.css';
 
@@ -46,8 +47,8 @@ class Experience extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-12">
-                            See More
+                        <div className="col-md-12 u-doubleTopMargin o-experience__call-to-action">
+                            <SimpleButton text="See More" />
                         </div>
                     </div>
                 </div>
