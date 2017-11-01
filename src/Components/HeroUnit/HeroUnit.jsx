@@ -5,60 +5,60 @@ import './c-HeroUnit.css';
 
 class HeroUnit extends Component {
 
-    constructor(props) {
-        super(props);
+	constructor(props) {
+		super(props);
 
-        this.state = {
-            someContent : '',
-            requestFailed: false
-        };
-    }
+		this.state = {
+			someContent : '',
+			requestFailed: false
+		};
+	}
 
-    componentDidMount(){
+	componentDidMount(){
 
-        window.addEventListener('scroll', this.handleScroll);
+		window.addEventListener('scroll', this.handleScroll);
 
-        fetch('http://www.joonsub.com/site/wordpress/wp-json/wp/v2/pages/4')
-        .then(response => {
-            if (!response.ok) {
-            throw Error("Network request failed")
-            }
-            return response
-        })
-        .then(d => d.json())
-        .then(d => {
-            this.setState({
-            someContent: d.work
-            })
-        }, () => {
-            this.setState({
-            requestFailed: true
-            })
-        })
-    }
+		fetch('http://www.joonsub.com/site/wordpress/wp-json/wp/v2/pages/4')
+		.then(response => {
+			if (!response.ok) {
+			throw Error("Network request failed")
+			}
+			return response
+		})
+		.then(d => d.json())
+		.then(d => {
+			this.setState({
+			someContent: d.work
+			})
+		}, () => {
+			this.setState({
+			requestFailed: true
+			})
+		})
+	}
 
-    bleh() {
-        var something = this.state.someContent;
+	bleh() {
+		var something = this.state.someContent;
 
-        return renderhtml(something !== undefined ? something :'' );
-    }
+		return renderhtml(something !== undefined ? something :'' );
+	}
 
-    render() {
-        return (
-            <div className="c-herounit">
-                <div className="c-herounit__content container">  
-                    Make an Impression.<br/>
-                    Design the future.
-                </div>
-                <div className="c-herounit__background">
-                </div>
-            </div>
-        );
-    }
+	render() {
+		return (
+			<div className="c-herounit">
+				<div className="c-herounit__content container">  
+					Make an Impression.<br/>
+					Design the future.
+				</div>
+				<div className="c-herounit__background">
+				</div>
+			</div>
+		);
+	}
 }
 
 HeroUnit.propTypes = {
-    name: propTypes.string
+	name: propTypes.string
 };
 
 export default HeroUnit;

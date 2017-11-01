@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import Code from '../Code/Code';
 import './o-Infobar.css';
 
@@ -38,8 +38,8 @@ class Infobar extends Component {
 	}
 }
 
-Infobar.PropTypes = {
-	info: propTypes.string.isRequired
+Infobar.propTypes = {
+	info: PropTypes.string.isRequired
 }
 
 export default Infobar;

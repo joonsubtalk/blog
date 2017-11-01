@@ -1,16 +1,16 @@
 @import 'styles/_custom.scss';
 /*
- * Sets a background card for content
+ * Simple button with simple border
  */
 .o-simplebutton {
-    background-color: transparent; /* Green */
-    border: 2px solid $backgroundDarkColor;
-    color: $backgroundDarkColor;
-    padding: .5em 1em;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    outline: none;
+	background-color: transparent;
+	border: 2px solid $backgroundDarkColor;
+	color: $backgroundDarkColor;
+	padding: .5em 1em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	outline: none;
 }

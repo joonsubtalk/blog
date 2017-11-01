@@ -1,34 +1,33 @@
 .c-code {
-    $terminalColor: #6ed9ff;
+	$terminalColor: #6ed9ff;
+	font-size: 1rem;
+	font-family: courier, monospace, serif;
+	border: 1px solid $terminalColor;
+	border-radius: 5px;
+	height: 100%;
+	width: 100%;
 
-    font-size: 1rem;
-    font-family: courier, monospace, serif;
-    border: 1px solid $terminalColor;
-    border-radius: 5px;
-    height: 100%;
-    width: 100%;
+	&__line-number {
+		text-align: right;
+	}
 
-    &__line-number {
-        text-align: right;
-    }
+	&__line {
+		color: $terminalColor;
+		font-size: .8em;
+	}
 
-    &__line {
-        color: $terminalColor;
-        font-size: .8em;
-    }
-
-    &__list {
-        list-style: none;
-        padding: .5em;
-    }
+	&__list {
+		list-style: none;
+		padding: .5em;
+	}
 
    &__space-0 {
-    padding-left: 1em;
+	padding-left: 1em;
    }
    &__space-1 {
-    padding-left: 2em;
+	padding-left: 2em;
    }
    &__space-2 {
-    padding-left: 3em;
+	padding-left: 3em;
    }
 }
